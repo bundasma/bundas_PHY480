@@ -41,6 +41,27 @@
 //
 //************************************************************************
 
+
+
+
+// Modified for PS1
+// file: PS1_2.cpp
+//
+// Spherical Bessel functions via up and down recursion, gsl function
+//
+// Programmer: Matt Bundas bundasma@msu.edu
+//
+// Revision history:
+//    02-02-2019 started and finished
+//
+// Notes:
+// * g++ -o PS1_3.x PS1_3.cpp -lgsl -lgslcblas"
+//
+//
+
+
+
+
 // include files
 #include <iostream>		// note that .h is omitted
 #include <iomanip>		// note that .h is omitted

@@ -22,6 +22,22 @@
 //and smaller numbers so the computer gives less accurate results.
 
 
+
+// Completed for PS1
+// file: PS1_2.cpp
+//
+// This program finds  the summation of 1/n summing up and summing down
+//
+// Programmer: Matt Bundas bundasma@msu.edu
+//
+// Revision history:
+//    02-01-2019 started and finished
+//
+// Notes:
+// * compile with: "make -f make_PS1_2"
+//
+//
+
 #include <iostream>		// note that .h is omitted
 #include <iomanip>		// note that .h is omitted
 #include <fstream>		// note that .h is omitted

@@ -23,6 +23,27 @@
 //
 //*********************************************************************//
 
+
+//Modifications for PS1
+// file: area_new.cpp
+//
+// This program calculates the area of a circle, given the radius.
+//
+// Programmer: Matt Bundas bundasma@msu.edu
+//
+// Revision history:
+//    02-01-2019 started and finished
+//
+// Notes:
+// * compile with:  "g++ -o area_new.x area_new.cpp"
+//
+
+
+
+
+
+
+
 // include files
 #include <iostream>	     // this has the cout, cin definitions
 //using namespace std;     // if omitted, then need std::cout, std::cin

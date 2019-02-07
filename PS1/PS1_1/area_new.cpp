@@ -32,16 +32,11 @@
 // Programmer: Matt Bundas bundasma@msu.edu
 //
 // Revision history:
-//    02-01-2019 started and finished
+//    02-01-2019 started and finished, added 1-6 in to do
 //
 // Notes:
 // * compile with:  "g++ -o area_new.x area_new.cpp"
 //
-
-
-
-
-
 
 
 // include files
@@ -58,11 +53,7 @@ inline double square(double x){
   return x*x;}
 
 double calc_area(double radius){
-  return M_PI*square(radius);
-}
-
-
-
+  return M_PI*square(radius);}
 
 int
 main ()
@@ -72,11 +63,11 @@ main ()
   std::cout << "Enter the radius of a circle: ";	// ask for radius
   std::cin >> radius;
 
+  //if a negative radius is inputted, throws an error
   if (radius < 0){
-    throw std::runtime_error("input radius is negative");
-  }
+    throw std::runtime_error("input radius is negative");}
   std::ofstream integ_out ("area.dat");
-
+  
   double area = calc_area(radius);	// standard area formula
 
   std::cout << std::setprecision(10) << "radius = " << radius << ",  area = " << area << std::endl;

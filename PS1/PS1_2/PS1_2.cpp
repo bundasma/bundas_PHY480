@@ -72,11 +72,4 @@ int main(){
     //finding difference divided by sum
     error_business = 2.0*(abs(sum_up - sum_down))/(abs(sum_up) + abs(sum_down));
     sum_out << setprecision(10) << N << "   " << error_business << "    " << sum_up << "     " << sum_down << endl;
-}
-
-
-
-
-
-
-}
+}}

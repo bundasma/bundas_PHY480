@@ -60,8 +60,6 @@
 //
 
 
-
-
 // include files
 #include <iostream>		// note that .h is omitted
 #include <iomanip>		// note that .h is omitted
@@ -93,7 +91,7 @@ main ()
   my_out << "# Spherical Bessel functions via up,down recursion and using GSL"
          << endl;
 
-my_out << "#     x" << "       downward" << "          upward" << "            GSL" << "               relative difference up vs down" << endl;
+  my_out << "#     x" << "       downward" << "          upward" << "            GSL" << "               relative difference up vs down" << endl;
 
   // step through different x values
   for (double x = xmin; x <= xmax; x += step)

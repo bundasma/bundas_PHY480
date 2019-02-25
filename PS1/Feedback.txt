@@ -1,0 +1,49 @@
+# HW grading scale: check(+) --> excellent (good code and analysis) 
+#                   check    --> satisfactory (minor shortcomings in code and/or analysis)
+#                   check(-) --> significant problems w/code or analysis
+
+
+1) Problem 1 (area.cpp embellishments): 
+
+* Your code looks good, though 1 minor nitpick is the output to the file is a bit cryptic (i.e., just
+a number). Also, it's good practice to close all file streams once you're done with them. 
+
+
+2)Problem 2 (sum up/down): 
+
+* Your code looks good, though another minor nitpick is your choice of filename. It's always good
+to use a name that hints at what the code actually does (e.g., order_of_summation.cpp).
+ 
+* Your figure looks right, though note if you follow the hint on the course webpage (i.e., use
+a logarithmic spacing of N rather than doing every case from 1 to 100000), it looks ALOT cleaner. 
+
+* You have the right idea of why the downward sum is better-- it's the 
+same mechanism as the example in class where we compared eps+eps+...+eps +1 vs 
+1 + eps + eps +...   
+
+3) Problem 3 (bessel functions): 
+
+* Your code looks good, and your plot looks correct.
+
+The analysis is missing a few important points. For instance, at small x and large x, the relative
+difference is of order 1. Can you identify which one (if any) is most accurate 
+in these regions? Ditto for the region where the relative difference is around machine precision? 
+
+Both for this and the previous problem, you might find the discussion in the Ch. 4 notes
+about to be useful. There we discuss how the relative difference 
+for 2 approximations is a useful tool even if we don't know the "exact" result. 
+
+Note also that the gsl output could be viewed as the "exact" 
+answer (it seems reasonable since it's part of a widely used scientific library!),
+and you could compute relative errors of the up/down versions wrt the gsl output to tease
+out where the up and down versions are accurate. 
+ 
+##### HW grade = check 
+
+Your codes look pretty good. You generally have the right idea on your analysis, though a few 
+points are missing or could be made a bit clearer.
+
+
+  
+
+

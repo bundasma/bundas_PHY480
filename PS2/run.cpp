@@ -22,11 +22,11 @@
 //There seem to be just two regions to my error graph, where the error changes as
 //stepsize to a power and where the error change with stepsize has no real structure.
 //Simpsons method has a structured slope until about 1100 points are used. Milnes
-//method has a structured slope until about 200 points are used. These numbers
+//method has a structured slope until about 250 points are used. These numbers
 //are much different and are due to the fact that milne's method has a much
 //steeper slope of -6.26 compared to simpsons slope of -4.19. This means that
 //the error using milne's method behaves like h^6 while simpsons rule behaves
-//like h^4. This means that to get the same error in integration you can have
+//like h^4. So to get the same error in integration you can have
 //a larger stepsize with milnes rule compared to simpsons rule. This is as expected
 //because simpsons rule is a second order method while milnes rule is a fourth
 //order method.
@@ -92,7 +92,6 @@ int main(){
   error << setprecision(15) << "nsteps       simpsons                    milne" << endl;
 
 
-
  //looping through different number of points
  while (i < 10000){
 
@@ -107,10 +106,6 @@ int main(){
   //calculating error in our written algorithms
   rel_error_simp = abs(result_simp - result_gsl)/result_gsl;
   rel_error_milne = abs(result_milne - result_gsl)/result_gsl;
-
-  //cout << setprecision(15) << result_simp << " simp" << endl;
-  //cout << setprecision(15) << result_milne << " milne" << endl;
-  //cout << setprecision(15) << result_gsl << " gsl" << endl;
 
   error << setprecision(15) <<  nsteps << "          " << rel_error_simp << "        " << rel_error_milne << endl;
 

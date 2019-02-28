@@ -15,9 +15,6 @@
 // Notes:
 // * compile with: "make gsl"
 
-
-
-
 //defining our gsl function
 double gsl_int(double x_min, double x_max, double (*f) (double x,void * params)){
 

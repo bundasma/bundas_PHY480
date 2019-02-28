@@ -2,7 +2,7 @@
 set timestamp
 
 set xlabel 'log(stepsize) '
-set ylabel 'log(relative error)'
+set ylabel 'log(number of points used)'
 
 set title 'relative error in integration'
 

@@ -1,6 +1,6 @@
 set timestamp
 
-set xlabel 'stepsize '
+set xlabel 'number of points used'
 set ylabel 'relative error'
 
 set title 'relative error in integration'

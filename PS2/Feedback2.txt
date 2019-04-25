@@ -1,0 +1,17 @@
+
+# Grading Scale: check(+) --> excellent codes and analysis
+                 check    --> satisfactory (missing small gaps in analysis or codes)
+                 check(-) --> unsatisfactory (significant problems with codes/analysis or incomplete)  
+
+Your codes and results look good. The analysis is correct, but you're missing one key element where you're
+asked to build on the discussion in the notes to make a quantitative estimate of what the optimal number
+of points should be for each algorithm. (I.e., you did the graphical estimate, but not the analytic
+one.) 
+
+One other minor nitpick: include the GSL results on the figure and also plot lines using the fitted 
+parameters.
+Grade: check
+
+
+
+

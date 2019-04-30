@@ -1,0 +1,21 @@
+Grades:  check(-) :  some major problems with the codes and/or analysis
+         check    :  good (with some minor gaps in your results/analysis) 
+         check(+) :  excellent 
+         check(++) : excellent with one of the BONUS problems completed
+
+A few suggestions for the analysis:  
+
+1) Your main difficulty in problem 3 is that you're calling the same HO wavefunction over and
+over again (rather than summing over different HO wf's weighted by the respective expansion
+coefficient.)
+
+2) Until the above is fixed, it's kind of superflous, but  bit more detail will be needed on the analysis for #3. 
+Hint: Physically, what does b control in the HO wf's?
+3) b should have no bearing on the normalization of psi(r), see your "factor1" variable. 
+ A good way to check this is to actually compute the normalization integral of your constructed
+ground state wave function.  
+
+Grade: check(-)   Since the error in point 1 is easy to fix, you can easily bump up to a check or check(+) depending on
+the rest of the analysis.
+
+
